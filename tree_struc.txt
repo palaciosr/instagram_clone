@@ -1,0 +1,34 @@
+insta-ddd/
+├── app/
+│   ├── main.py
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── db.py
+│   │   └── security.py
+│   ├── domains/
+│   │   ├── users/
+│   │   │   ├── models.py
+│   │   │   ├── schemas.py
+│   │   │   ├── repository.py
+│   │   │   ├── service.py
+│   │   │   └── router.py
+│   │   ├── posts/
+│   │   │   ├── models.py
+│   │   │   ├── schemas.py
+│   │   │   ├── repository.py
+│   │   │   ├── service.py
+│   │   │   └── router.py
+│   │   └── follows/
+│   │       ├── models.py
+│   │       ├── repository.py
+│   │       └── router.py
+│   ├── shared/
+│   │   ├── base_model.py
+│   │   ├── repository_base.py
+│   │   └── exceptions.py
+│   └── api/
+│       └── router.py
+├── requirements.txt
+└── Dockerfile
+
+this creates the DDD structure in FastAPI using async SQL alchemy 

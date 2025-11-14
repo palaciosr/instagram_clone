@@ -1,0 +1,8 @@
+index.html      (login page)
+   register.html   (register page)
+   feed.html       (feed + create post)
+   api.js          (fetch wrapper w/ JWT)
+   login.js
+   register.js
+   feed.js
+   styles.css
