@@ -35,7 +35,6 @@ async def lifespan(app: FastAPI):
 app = FastAPI(title="Async DDD Instagram Clone", lifespan=lifespan)
 app.include_router(api_router)
 
-#/Users/rodo/Desktop/instagram_design/app/main.py
 
 
 from fastapi.middleware.cors import CORSMiddleware
