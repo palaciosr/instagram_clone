@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    # command: /bin/sh -c "uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+    command: >
+      /bin/bash -c "
+      /usr/local/bin/wait-for-db.sh $$POSTGRES_HOST $$POSTGRES_USER $$POSTGRES_HOST_AUTH_METHOD $$POSTGRES_DB && 
+      uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+      "
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env.docker  # Assuming you use a .env file for secrets and config
+    depends_on:
+      - db
+    # healthcheck:
+  # 5. PostgreSQL Database
+  db:
+    image: postgres:14-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    env_file:
+      - .env.docker # Ensure DB credentials are set in .env
+    ports:
+      - "5432:5432"
+    # Crucial for migrations: checks if the DB is ready to accept connections
+    healthcheck:
+    # change the creds with envs
+      test: ["CMD-SHELL", "pg_isready -U $POSTGRES_USER -d $POSTGRES_DB"] # IMPORTANT: Use the new user/db
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+# frontend will have context and dockerfile parameters
+# compose.yml  (add this service)
+  frontend:
+    image: node:20-alpine
+    working_dir: /frontend
+    command: npx serve . -l 3000
+    ports:
+      - "3000:3000"
+    # volumes:
+    #   - ./frontend/build:  /app    # ← or ./frontend/dist if you use Vite
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

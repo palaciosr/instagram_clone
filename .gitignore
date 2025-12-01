@@ -1,7 +1,8 @@
 .env
+.env.docker
 
 .pycache/
-venv/
+vinstagram/
 env/
 __pycache__/
 *.pyc
