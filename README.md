@@ -1,7 +1,5 @@
 # instagram_clone
-Create an instagram clone
-
-
+Create an instagram clone, currently supporting adding users, posting, liking, and commenting.
 
 
 
@@ -10,6 +8,7 @@ Create an instagram clone
 
 
 creds you need a .env and .env.docker to run locally or with docker
+# note insecure and this is for development only
 
 
 DATABASE_URL = ""
@@ -21,5 +20,11 @@ POSTGRES_USER = ""
 POSTGRES_DB = ""
 POSTGRES_HOST=
 POSTGRES_PORT=
-# note insecure and this is for development only
 POSTGRES_HOST_AUTH_METHOD="trust"
+
+
+# Makefile to run
+
+``` make build ```
+
+``` make run ```

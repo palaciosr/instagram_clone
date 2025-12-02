@@ -4,18 +4,24 @@ from sqlalchemy.orm import selectinload
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.domains.posts.models import Post, Comment, Like
 from typing import List
-
+from sqlalchemy.exc import SQLAlchemyError
+from app.core.logging_info import app_logger
 
 class PostRepository:
     def __init__(self, db: AsyncSession):
         self.db = db
 
     async def create(self, user_id: int, caption: str):
-        post = Post(user_id=user_id, caption=caption)
-        self.db.add(post)
-        await self.db.commit()
-        await self.db.refresh(post)
-        return post
+
+        try:
+            post = Post(user_id=user_id, caption=caption)
+            self.db.add(post)
+            await self.db.commit()
+            await self.db.refresh(post) # two queries
+            return post
+        except SQLAlchemyError as e:
+            app_logger.error("Query failed with: {e}", exc_info=True)
+            raise
 
     async def get_feed(self):
         # only loads users feed?
@@ -38,30 +44,33 @@ class PostRepository:
             .order_by(Post.created_at.desc())
         )
 
-        
-        result = await self.db.execute(q)
-        return result.scalars().all()
+        try:
+            result = await self.db.execute(q)
+            return result.scalars().all()
+        except SQLAlchemyError as e:
+            app_logger.error("Query failed with: {e}", exc_info=True)
+            raise
 
     async def like_post(self, post_id: int, user_id: int):
-        like = Like(post_id=post_id, user_id=user_id)
-        self.db.add(like)
-        await self.db.commit()
-        return like
+        
+        try:
+            like = Like(post_id=post_id, user_id=user_id)
+            self.db.add(like)
+            await self.db.commit()
+            return like
+        except SQLAlchemyError as e:
+            app_logger.error("Query failed with: {e}", exc_info=True)
+
+            raise 
 
     async def comment_post(self, post_id: int, user_id: int, text: str):
-        com = Comment(post_id=post_id, user_id=user_id, text=text)
-        self.db.add(com)
-        await self.db.commit()
-        return com
 
-
-
-    # async def list_by_user_ids(self, user_ids: List[int], limit: int = 20):
-    #     if not user_ids:
-    #         return []
-    #     stmt = select(Post).where(Post.user_id.in_(user_ids)).order_by(desc(Post.created_at)).limit(limit)
-    #     res = await self.db.execute(stmt)
-    #     return res.scalars().all()
-
-    # async def get(self, post_id: int) -> Post:
-    #     return await self.db.get(Post, post_id)
+        try:
+            com = Comment(post_id=post_id, user_id=user_id, text=text)
+            self.db.add(com)
+            await self.db.commit()
+            return com
+        
+        except SQLAlchemyError as e:
+            app_logger.error("Query failed with: {e}", exc_info=True)
+            raise
