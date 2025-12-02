@@ -2,18 +2,8 @@ from app.api.router import api_router
 
 from fastapi import FastAPI
 from app.core.db import Base, engine, get_db
-
-
-# from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
-# oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/token")
-
+from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
-
-# from dotenv import load_dotenv
-
-# load_dotenv()
-
-
 
 # fix 
 @asynccontextmanager
@@ -34,11 +24,6 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Async DDD Instagram Clone", lifespan=lifespan)
 app.include_router(api_router)
-
-
-
-from fastapi.middleware.cors import CORSMiddleware
-
 
 origins = [
     "http://localhost",

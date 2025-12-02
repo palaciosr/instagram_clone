@@ -20,20 +20,25 @@ RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /code
 
 RUN python3 -m venv venv
-ENV VIRTUAL_ENV=/app/venv
-ENV PATH="/app/venv/bin:$PATH"
+ENV VIRTUAL_ENV=/code/venv
+ENV PATH="/code/venv/bin:$PATH"
+
+
+COPY . /code/app
+
+ENV PYTHONPATH=/code:$PYTHONPATH 
+
 
 #Your Dockerfile sets ENV PATH="/app/venv/bin:$PATH".
 
 # Install Python dependencies
 COPY requirements.txt /app/
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r app/requirements.txt
 
 # Copy the entire Django project (assuming it's in the same directory as the Dockerfile)
-COPY . /app/
 
 COPY ./wait-for-db.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/wait-for-db.sh
