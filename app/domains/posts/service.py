@@ -7,7 +7,6 @@ from app.shared.exceptions import NotFoundError
 from app.domains.users.repository import UserRepository
 
 
-
 class PostService:
     def __init__(self, repo: PostRepository, users: UserRepository):
         self.repo = repo
@@ -17,10 +16,11 @@ class PostService:
         user = await self.users.get_by_username(username)
         return await self.repo.create(user.id, caption)
 
+
     async def feed(self):
         posts = await self.repo.get_feed()
         results = []
-        
+
         if posts:
 
             for post in posts:
@@ -47,22 +47,3 @@ class PostService:
     async def comment(self, username: str, post_id: int, text: str):
         user = await self.users.get_by_username(username)
         return await self.repo.comment_post(post_id, user.id, text)
-
-
-
-# class PostService:
-#     def __init__(self, repo: PostRepository):
-#         self.repo = repo
-
-#     async def create_post(self, post_in: PostCreate) -> Post:
-#         p = Post(**post_in.dict())
-#         return await self.repo.create(p)
-
-#     async def list_feed(self, user_ids: list[int], limit: int = 20):
-#         return await self.repo.list_by_user_ids(user_ids, limit=limit)
-
-#     async def get_post(self, post_id: int):
-#         p = await self.repo.get(post_id)
-#         if not p:
-#             raise NotFoundError("post not found")
-#         return p

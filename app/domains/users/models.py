@@ -1,6 +1,3 @@
-
-
-
 from sqlalchemy import Column, Integer, String, Text, ForeignKey, TIMESTAMP, func, LargeBinary
 from sqlalchemy.orm import relationship
 from app.core.db import Base
@@ -15,4 +12,3 @@ class User(Base):
     created_at = Column(TIMESTAMP(timezone=True), server_default=func.now())
 
     posts = relationship("Post", back_populates="user")
-

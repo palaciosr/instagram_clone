@@ -3,8 +3,6 @@ version: '3.8'
 services:
   app:
     build: ./app
-    #      uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
-    #      python3 -m uvicorn main:app --host 0.0.0.0 --port 8000
     working_dir: /code
     command: >
       /bin/bash -c "
@@ -17,9 +15,6 @@ services:
       - .env.docker  # Assuming you use a .env file for secrets and config
     depends_on:
       - db
-
-    # frontend will have context and dockerfile parameters
-# compose.yml  (add this service)
   frontend:
     build: ./frontend
     command: npx serve . -l 3000

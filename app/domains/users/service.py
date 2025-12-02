@@ -19,9 +19,6 @@ class UserService:
         )
         return await self.repo.create(user)
 
-
-# check
-# /Users/rodo/Desktop/instagram_design/app/core/security.py
     async def authenticate_user(self, username: str, password: str):
         user = await self.repo.get_by_username(username)
         if not user or not verify_password(password, user.hashed_password):

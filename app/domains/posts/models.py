@@ -14,10 +14,7 @@ class Post(Base):
     user_id = Column(Integer, ForeignKey("users.id"))
     caption = Column(Text)
     created_at = Column(TIMESTAMP(timezone=True), server_default=func.now())
-
-    #check
     user = relationship("User", back_populates="posts")
-
     comments = relationship("Comment", back_populates="post")
     likes = relationship("Like", back_populates="post")
 
@@ -29,10 +26,7 @@ class Comment(Base):
     post_id = Column(Integer, ForeignKey("posts.id"))
     user_id = Column(Integer, ForeignKey("users.id"))
     text = Column(String)
-
     user = relationship("User")
-
-    # user = relationship("User", back_populates="comments")
     post = relationship("Post", back_populates="comments")
 
 

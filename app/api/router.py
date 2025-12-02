@@ -7,8 +7,6 @@ from app.domains.follows.router import router as follows_router
 
 from app.domains.auth.router import router as auth_router
 
-# inlcudede auth router 
-
 api_router = APIRouter(prefix="/api")
 api_router.include_router(users_router)
 api_router.include_router(posts_router)
