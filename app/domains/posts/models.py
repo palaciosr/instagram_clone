@@ -1,7 +1,7 @@
 
 # include all models 
 
-from sqlalchemy import Column, Integer, String, Text, ForeignKey, TIMESTAMP, func
+from sqlalchemy import Column, Integer, String, Text, ForeignKey, TIMESTAMP, func, LargeBinary
 from sqlalchemy.orm import relationship
 from app.core.db import Base
 
@@ -10,6 +10,8 @@ from datetime import datetime
 class Post(Base):
     __tablename__ = "posts"
 
+    # need to add contents and url can be none
+
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, ForeignKey("users.id"))
     caption = Column(Text)
@@ -17,6 +19,10 @@ class Post(Base):
     user = relationship("User", back_populates="posts")
     comments = relationship("Comment", back_populates="post")
     likes = relationship("Like", back_populates="post")
+
+    # optional
+    file_name = Column(String, nullable=True)
+    image_data = Column(LargeBinary, nullable=True) # content
 
 
 class Comment(Base):

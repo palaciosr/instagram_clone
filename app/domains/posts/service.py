@@ -12,10 +12,9 @@ class PostService:
         self.repo = repo
         self.users = users
 
-    async def create_post(self, username: str, caption: str):
+    async def create_post(self, username: str, caption: str , file=None):
         user = await self.users.get_by_username(username)
-        return await self.repo.create(user.id, caption)
-
+        return await self.repo.create(user.id, caption, file)
 
     async def feed(self):
         posts = await self.repo.get_feed()
@@ -24,6 +23,11 @@ class PostService:
         if posts:
 
             for post in posts:
+                # check that the image is there
+                # if post.file_name and post.image_data:
+                    # then 
+                    # get 
+
                 results.append({
                     "id": post.id,
                     "username": post.user.username,

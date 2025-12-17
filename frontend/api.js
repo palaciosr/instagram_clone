@@ -1,7 +1,16 @@
 const API_BASE = "http://localhost:8000/api";
 
 export async function apiRequest(path, method = "GET", body = null, auth = false) {
-    const headers = { "Content-Type": "application/json" };
+    // const headers = { "Content-Type": "application/json" };
+
+    const headers = {};
+
+    // Only add Content-Type if we're sending JSON (not FormData)
+    const isFormData = body instanceof FormData;
+    if (!isFormData && body !== null) {
+        headers["Content-Type"] = "application/json";
+    }
+
 
     if (auth) {
         const token = localStorage.getItem("token");
@@ -16,13 +25,19 @@ export async function apiRequest(path, method = "GET", body = null, auth = false
     const res = await fetch(API_BASE + path, {
         method,
         headers,
-        body: body ? JSON.stringify(body) : null,
+        body: isFormData ? body : (body ? JSON.stringify(body) : null),
     });
 
     if (!res.ok) {
         const error = await res.text();
-        throw new Error(error);
+        throw new Error(`HTTP ${res.status}: ${error}`);
     }
 
-    return res.json();
+    const contentType = res.headers.get("content-type");
+    if (contentType && contentType.includes("application/json")) {
+        return await res.json();
+    }
+    return await res.text();
+
+
 }

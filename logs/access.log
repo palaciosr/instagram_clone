@@ -1,0 +1,476 @@
+[32mINFO[0m:     2025-12-02 15:40:17,182 - 127.0.0.1:63159 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-02 15:40:17,478 - 127.0.0.1:63159 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-02 15:40:17,515 - 127.0.0.1:63159 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-02 15:40:17,534 - 127.0.0.1:63161 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 10:43:19,034 - 127.0.0.1:57368 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 10:43:19,323 - 127.0.0.1:57368 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 10:43:19,396 - 127.0.0.1:57368 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 10:43:19,415 - 127.0.0.1:57368 - "[1mGET /api/posts/feed HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-08 10:43:41,912 - 127.0.0.1:57388 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 10:43:41,922 - 127.0.0.1:57388 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 10:46:21,851 - 127.0.0.1:57496 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 10:52:29,546 - 127.0.0.1:57738 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 10:53:17,654 - 127.0.0.1:57767 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 10:53:45,231 - 127.0.0.1:57805 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 10:53:45,273 - 127.0.0.1:57805 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 10:54:02,605 - 127.0.0.1:57816 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 10:54:03,648 - 127.0.0.1:57816 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 10:54:53,341 - 127.0.0.1:57854 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 10:54:54,844 - 127.0.0.1:57854 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 10:55:17,008 - 127.0.0.1:57875 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 10:55:39,349 - 127.0.0.1:57896 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 10:55:39,642 - 127.0.0.1:57896 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 10:55:39,684 - 127.0.0.1:57896 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 10:55:39,716 - 127.0.0.1:57896 - "[1mGET /api/posts/feed HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-08 11:24:53,468 - 127.0.0.1:59127 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 11:24:53,765 - 127.0.0.1:59127 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 11:24:53,809 - 127.0.0.1:59127 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 11:24:53,837 - 127.0.0.1:59129 - "[1mGET /api/posts/feed HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-08 11:25:07,181 - 127.0.0.1:59138 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 11:25:07,193 - 127.0.0.1:59138 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 11:31:49,316 - 127.0.0.1:59415 - "[1mGET /api/posts/feed HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-08 11:32:00,203 - 127.0.0.1:59425 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 13:41:10,460 - 127.0.0.1:64126 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 13:41:10,500 - 127.0.0.1:64126 - "[1mGET /api/posts/feed HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-08 13:41:18,371 - 127.0.0.1:64128 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 13:41:18,377 - 127.0.0.1:64128 - "[1mPOST /api/posts HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     2025-12-08 13:52:15,196 - 127.0.0.1:64574 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 13:52:15,245 - 127.0.0.1:64574 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 13:52:40,025 - 127.0.0.1:64576 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 13:52:40,032 - 127.0.0.1:64576 - "[1mPOST /api/posts HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     2025-12-08 13:54:54,326 - 127.0.0.1:65147 - "[1mGET /api/posts HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+[32mINFO[0m:     2025-12-08 13:58:07,670 - 127.0.0.1:49650 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 13:58:07,958 - 127.0.0.1:49650 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 13:58:08,024 - 127.0.0.1:49650 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 13:58:23,529 - 127.0.0.1:49652 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 13:58:50,450 - 127.0.0.1:49847 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 14:05:45,800 - 127.0.0.1:51796 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:05:45,824 - 127.0.0.1:51796 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:05:59,688 - 127.0.0.1:51798 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:05:59,715 - 127.0.0.1:51798 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:05:59,732 - 127.0.0.1:51798 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:06:23,120 - 127.0.0.1:51863 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:06:23,147 - 127.0.0.1:51863 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:12:56,138 - 127.0.0.1:53335 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:12:56,157 - 127.0.0.1:53335 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:15:38,222 - 127.0.0.1:54079 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:15:38,255 - 127.0.0.1:54079 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:15:48,637 - 127.0.0.1:54128 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:15:48,672 - 127.0.0.1:54128 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:22:16,351 - 127.0.0.1:55956 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:22:16,359 - 127.0.0.1:55956 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:22:29,386 - 127.0.0.1:55958 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:22:29,401 - 127.0.0.1:55958 - "[1mPOST /api/posts HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 14:34:30,013 - 127.0.0.1:59371 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:34:30,041 - 127.0.0.1:59371 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:34:37,941 - 127.0.0.1:59373 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:34:37,945 - 127.0.0.1:59373 - "[1mPOST /api/posts HTTP/1.1[0m" [31m400 Bad Request[0m
+[32mINFO[0m:     2025-12-08 14:44:33,275 - 127.0.0.1:62183 - "[1mPOST /api/posts HTTP/1.1[0m" [31m400 Bad Request[0m
+[32mINFO[0m:     2025-12-08 14:59:31,543 - 127.0.0.1:49993 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:59:31,574 - 127.0.0.1:49993 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:59:43,813 - 127.0.0.1:49995 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 14:59:43,823 - 127.0.0.1:49995 - "[1mPOST /api/posts HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     2025-12-08 15:00:32,521 - 127.0.0.1:50278 - "[1mPOST /api/auth/login HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 15:00:44,485 - 127.0.0.1:50335 - "[1mPOST /api/auth/login HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 15:14:19,807 - 127.0.0.1:54139 - "[1mPOST /api/auth/login HTTP/1.1[0m" [31m422 Unprocessable Entity[0m
+[32mINFO[0m:     2025-12-08 15:14:25,429 - 127.0.0.1:54170 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:14:25,703 - 127.0.0.1:54170 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:14:25,743 - 127.0.0.1:54170 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:14:25,758 - 127.0.0.1:54172 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:14:43,014 - 127.0.0.1:54253 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:14:43,025 - 127.0.0.1:54253 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-08 15:27:30,907 - 127.0.0.1:57840 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:27:30,933 - 127.0.0.1:57840 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:27:36,887 - 127.0.0.1:57842 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:27:37,174 - 127.0.0.1:57842 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:27:37,219 - 127.0.0.1:57842 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:27:44,804 - 127.0.0.1:57867 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-08 15:27:44,814 - 127.0.0.1:57867 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-09 10:17:39,407 - 127.0.0.1:58583 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:17:39,704 - 127.0.0.1:58583 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:17:39,741 - 127.0.0.1:58583 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:17:39,762 - 127.0.0.1:58585 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:22:44,842 - 127.0.0.1:60036 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:22:44,858 - 127.0.0.1:60036 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-09 10:30:03,065 - 127.0.0.1:62091 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:30:03,120 - 127.0.0.1:62091 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:30:12,475 - 127.0.0.1:62093 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-09 10:42:09,540 - 127.0.0.1:49175 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:42:09,575 - 127.0.0.1:49175 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:42:14,506 - 127.0.0.1:49175 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:42:14,796 - 127.0.0.1:49177 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:42:14,849 - 127.0.0.1:49177 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:42:31,758 - 127.0.0.1:49285 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 10:42:31,767 - 127.0.0.1:49285 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-09 11:24:12,487 - 127.0.0.1:61023 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 11:24:12,523 - 127.0.0.1:61023 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 11:24:20,495 - 127.0.0.1:61025 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 11:24:20,505 - 127.0.0.1:61025 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-09 11:27:08,913 - 127.0.0.1:61863 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 11:27:19,551 - 127.0.0.1:61915 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-09 12:08:50,773 - 127.0.0.1:57046 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:08:51,070 - 127.0.0.1:57046 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:08:51,110 - 127.0.0.1:57046 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:08:51,149 - 127.0.0.1:57048 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:09:06,805 - 127.0.0.1:57128 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:09:06,825 - 127.0.0.1:57128 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-09 12:12:05,693 - 127.0.0.1:57972 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-09 12:13:46,079 - 127.0.0.1:58452 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:13:46,138 - 127.0.0.1:58452 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:13:52,308 - 127.0.0.1:58481 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:13:52,341 - 127.0.0.1:58481 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:14:23,396 - 127.0.0.1:58630 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:14:23,417 - 127.0.0.1:58630 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:14:35,396 - 127.0.0.1:58686 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-09 12:14:35,447 - 127.0.0.1:58686 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:37:41,332 - 127.0.0.1:54617 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:37:41,629 - 127.0.0.1:54617 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:37:41,680 - 127.0.0.1:54617 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:37:41,708 - 127.0.0.1:54617 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:37:58,202 - 127.0.0.1:54632 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:37:58,265 - 127.0.0.1:54632 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:37:58,308 - 127.0.0.1:54632 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:39:13,854 - 127.0.0.1:54977 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:40:02,548 - 127.0.0.1:55209 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:40:02,652 - 127.0.0.1:55209 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:40:17,499 - 127.0.0.1:55292 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:40:17,540 - 127.0.0.1:55292 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:57:35,006 - 127.0.0.1:60202 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:57:35,062 - 127.0.0.1:60202 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:57:35,067 - 127.0.0.1:60204 - "[1mGET /posts/25/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,069 - 127.0.0.1:60206 - "[1mGET /posts/24/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,070 - 127.0.0.1:60210 - "[1mGET /posts/23/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,071 - 127.0.0.1:60211 - "[1mGET /posts/22/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,072 - 127.0.0.1:60212 - "[1mGET /posts/21/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,072 - 127.0.0.1:60215 - "[1mGET /posts/20/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,073 - 127.0.0.1:60216 - "[1mGET /posts/19/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,074 - 127.0.0.1:60218 - "[1mGET /posts/18/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,074 - 127.0.0.1:60220 - "[1mGET /posts/17/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,075 - 127.0.0.1:60222 - "[1mGET /posts/16/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,075 - 127.0.0.1:60224 - "[1mGET /posts/15/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,076 - 127.0.0.1:60226 - "[1mGET /posts/14/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,077 - 127.0.0.1:60229 - "[1mGET /posts/13/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,078 - 127.0.0.1:60230 - "[1mGET /posts/12/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,079 - 127.0.0.1:60233 - "[1mGET /posts/11/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,080 - 127.0.0.1:60234 - "[1mGET /posts/10/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,081 - 127.0.0.1:60237 - "[1mGET /posts/9/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,081 - 127.0.0.1:60238 - "[1mGET /posts/8/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,083 - 127.0.0.1:60240 - "[1mGET /posts/7/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,083 - 127.0.0.1:60242 - "[1mGET /posts/6/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,084 - 127.0.0.1:60244 - "[1mGET /posts/5/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,085 - 127.0.0.1:60247 - "[1mGET /posts/4/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,085 - 127.0.0.1:60248 - "[1mGET /posts/3/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,086 - 127.0.0.1:60250 - "[1mGET /posts/2/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:35,086 - 127.0.0.1:60252 - "[1mGET /posts/1/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,667 - 127.0.0.1:60305 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:57:46,714 - 127.0.0.1:60305 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:57:46,754 - 127.0.0.1:60305 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 09:57:46,762 - 127.0.0.1:60307 - "[1mGET /posts/26/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,763 - 127.0.0.1:60309 - "[1mGET /posts/25/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,765 - 127.0.0.1:60311 - "[1mGET /posts/24/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,769 - 127.0.0.1:60315 - "[1mGET /posts/23/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,769 - 127.0.0.1:60316 - "[1mGET /posts/22/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,770 - 127.0.0.1:60317 - "[1mGET /posts/21/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,771 - 127.0.0.1:60320 - "[1mGET /posts/20/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,772 - 127.0.0.1:60322 - "[1mGET /posts/19/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,773 - 127.0.0.1:60323 - "[1mGET /posts/18/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,775 - 127.0.0.1:60325 - "[1mGET /posts/17/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,776 - 127.0.0.1:60328 - "[1mGET /posts/16/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,776 - 127.0.0.1:60329 - "[1mGET /posts/15/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,777 - 127.0.0.1:60331 - "[1mGET /posts/14/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,778 - 127.0.0.1:60333 - "[1mGET /posts/13/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,779 - 127.0.0.1:60335 - "[1mGET /posts/12/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,780 - 127.0.0.1:60337 - "[1mGET /posts/11/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,781 - 127.0.0.1:60339 - "[1mGET /posts/10/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,782 - 127.0.0.1:60341 - "[1mGET /posts/9/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,783 - 127.0.0.1:60343 - "[1mGET /posts/8/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,784 - 127.0.0.1:60345 - "[1mGET /posts/7/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,784 - 127.0.0.1:60347 - "[1mGET /posts/6/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,785 - 127.0.0.1:60349 - "[1mGET /posts/5/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,785 - 127.0.0.1:60351 - "[1mGET /posts/4/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,786 - 127.0.0.1:60353 - "[1mGET /posts/3/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,786 - 127.0.0.1:60355 - "[1mGET /posts/2/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:57:46,787 - 127.0.0.1:60357 - "[1mGET /posts/1/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:58:35,234 - 127.0.0.1:60582 - "[1mGET /posts/24/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 09:58:35,302 - 127.0.0.1:60582 - "[1mGET /favicon.ico HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-10 10:13:33,055 - 127.0.0.1:64794 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:13:33,093 - 127.0.0.1:64794 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:15:26,410 - 127.0.0.1:65331 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:15:36,322 - 127.0.0.1:65377 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:15:36,602 - 127.0.0.1:65377 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:15:36,709 - 127.0.0.1:65377 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:19:16,430 - 127.0.0.1:50061 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:19:25,792 - 127.0.0.1:50103 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:19:25,828 - 127.0.0.1:50103 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:19:25,859 - 127.0.0.1:50103 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:23:06,336 - 127.0.0.1:51179 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:23:07,459 - 127.0.0.1:51179 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:24:46,972 - 127.0.0.1:51660 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:24:47,017 - 127.0.0.1:51660 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:24:47,926 - 127.0.0.1:51660 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:24:58,661 - 127.0.0.1:51714 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:24:58,769 - 127.0.0.1:51714 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:25:09,430 - 127.0.0.1:51772 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:25:09,493 - 127.0.0.1:51772 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:25:20,077 - 127.0.0.1:51822 - "[1mOPTIONS /api/posts/28/like HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:25:20,099 - 127.0.0.1:51822 - "[1mPOST /api/posts/28/like HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:25:20,156 - 127.0.0.1:51822 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:25:22,557 - 127.0.0.1:51822 - "[1mOPTIONS /api/posts/28/comment HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:25:22,582 - 127.0.0.1:51822 - "[1mPOST /api/posts/28/comment HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 10:25:22,635 - 127.0.0.1:51822 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:24:41,081 - 127.0.0.1:52432 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:24:41,146 - 127.0.0.1:52432 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:24:44,311 - 127.0.0.1:52432 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:24:44,318 - 127.0.0.1:52432 - "[1mPOST /api/posts HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     2025-12-10 15:24:52,832 - 127.0.0.1:52480 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:24:52,868 - 127.0.0.1:52480 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:24:57,008 - 127.0.0.1:52488 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:24:57,016 - 127.0.0.1:52488 - "[1mPOST /api/posts HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     2025-12-10 15:25:10,185 - 127.0.0.1:52546 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:25:10,468 - 127.0.0.1:52546 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:25:10,534 - 127.0.0.1:52546 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:25:14,072 - 127.0.0.1:52572 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-10 15:30:30,329 - 127.0.0.1:54065 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:30:39,010 - 127.0.0.1:54106 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:30:39,053 - 127.0.0.1:54106 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:30:52,953 - 127.0.0.1:54171 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:30:53,016 - 127.0.0.1:54171 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:37:06,455 - 127.0.0.1:55976 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:37:06,488 - 127.0.0.1:55976 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:37:08,782 - 127.0.0.1:55976 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:37:10,140 - 127.0.0.1:55976 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:37:20,162 - 127.0.0.1:56043 - "[1mOPTIONS /api/posts/30/comment HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:37:20,201 - 127.0.0.1:56043 - "[1mPOST /api/posts/30/comment HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-10 15:37:20,237 - 127.0.0.1:56043 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 09:59:12,366 - 127.0.0.1:60959 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 09:59:12,663 - 127.0.0.1:60959 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 09:59:12,763 - 127.0.0.1:60959 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 09:59:12,797 - 127.0.0.1:60959 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 09:59:23,480 - 127.0.0.1:60961 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 09:59:23,519 - 127.0.0.1:60961 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 09:59:23,562 - 127.0.0.1:60961 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:19:41,826 - 127.0.0.1:62137 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:19:42,118 - 127.0.0.1:62137 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:19:42,151 - 127.0.0.1:62137 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:19:42,181 - 127.0.0.1:62139 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:19:50,771 - 127.0.0.1:62173 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:19:50,818 - 127.0.0.1:62173 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 10:25:18,013 - 127.0.0.1:63536 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:25:18,075 - 127.0.0.1:63536 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:25:25,645 - 127.0.0.1:63566 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:25:25,682 - 127.0.0.1:63566 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:40:11,849 - 127.0.0.1:51039 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:40:12,143 - 127.0.0.1:51039 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:40:12,172 - 127.0.0.1:51039 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:40:12,200 - 127.0.0.1:51041 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:40:24,594 - 127.0.0.1:51095 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:40:24,614 - 127.0.0.1:51095 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 10:46:27,916 - 127.0.0.1:52635 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:46:27,989 - 127.0.0.1:52635 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:46:37,815 - 127.0.0.1:52678 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 10:57:25,972 - 127.0.0.1:55336 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:57:26,265 - 127.0.0.1:55336 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:57:26,307 - 127.0.0.1:55336 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:57:26,334 - 127.0.0.1:55338 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:57:34,004 - 127.0.0.1:55369 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 10:57:34,022 - 127.0.0.1:55369 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 11:00:59,670 - 127.0.0.1:56230 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:00:59,741 - 127.0.0.1:56230 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:01:06,998 - 127.0.0.1:56260 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 11:03:26,302 - 127.0.0.1:56854 - "[1mPOST /api/posts HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 11:04:32,133 - 127.0.0.1:57136 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:04:32,168 - 127.0.0.1:57136 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:04:40,743 - 127.0.0.1:57173 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:04:56,475 - 127.0.0.1:57236 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:04:56,527 - 127.0.0.1:57236 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:06:36,891 - 127.0.0.1:57665 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:09:58,425 - 127.0.0.1:58499 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:09:58,445 - 127.0.0.1:58499 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:10:09,263 - 127.0.0.1:58501 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:10:09,285 - 127.0.0.1:58501 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:10:09,312 - 127.0.0.1:58501 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:15:43,838 - 127.0.0.1:59961 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:15:43,846 - 127.0.0.1:59965 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:15:43,847 - 127.0.0.1:59967 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:15:43,847 - 127.0.0.1:59968 - "[1mGET /posts/33/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:15:43,847 - 127.0.0.1:59971 - "[1mGET /posts/32/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:15:43,848 - 127.0.0.1:59972 - "[1mGET /posts/31/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:15:43,848 - 127.0.0.1:59973 - "[1mGET /posts/30/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:15:48,009 - 127.0.0.1:59991 - "[1mGET /posts/29/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:15:48,673 - 127.0.0.1:59997 - "[1mGET /posts/28/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:16:05,449 - 127.0.0.1:60071 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:16:05,486 - 127.0.0.1:60071 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:16:05,501 - 127.0.0.1:60075 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:16:05,501 - 127.0.0.1:60077 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:16:05,502 - 127.0.0.1:60079 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:16:05,502 - 127.0.0.1:60080 - "[1mGET /posts/33/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:16:05,502 - 127.0.0.1:60082 - "[1mGET /posts/32/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:16:05,502 - 127.0.0.1:60083 - "[1mGET /posts/31/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:06,442 - 127.0.0.1:61850 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:23:06,492 - 127.0.0.1:61850 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:23:06,503 - 127.0.0.1:61856 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:06,503 - 127.0.0.1:61858 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:06,503 - 127.0.0.1:61859 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:06,503 - 127.0.0.1:61861 - "[1mGET /posts/33/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:06,504 - 127.0.0.1:61863 - "[1mGET /posts/32/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:06,504 - 127.0.0.1:61864 - "[1mGET /posts/31/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:12,675 - 127.0.0.1:61852 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:23:12,705 - 127.0.0.1:61852 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:23:12,741 - 127.0.0.1:61852 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:23:12,757 - 127.0.0.1:61892 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:12,758 - 127.0.0.1:61894 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:12,759 - 127.0.0.1:61895 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:12,760 - 127.0.0.1:61897 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:12,760 - 127.0.0.1:61899 - "[1mGET /posts/33/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:23:12,761 - 127.0.0.1:61900 - "[1mGET /posts/32/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:04,180 - 127.0.0.1:62880 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:27:04,188 - 127.0.0.1:62884 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:04,188 - 127.0.0.1:62886 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:04,189 - 127.0.0.1:62887 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:04,189 - 127.0.0.1:62889 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:04,189 - 127.0.0.1:62891 - "[1mGET /posts/33/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:04,189 - 127.0.0.1:62892 - "[1mGET /posts/32/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:12,510 - 127.0.0.1:62927 - "[1mGET /posts/31/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:12,536 - 127.0.0.1:62929 - "[1mGET /posts/30/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:14,279 - 127.0.0.1:62939 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:27:14,328 - 127.0.0.1:62939 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:27:14,337 - 127.0.0.1:62943 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:14,337 - 127.0.0.1:62945 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:14,337 - 127.0.0.1:62946 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:14,340 - 127.0.0.1:62948 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:14,341 - 127.0.0.1:62950 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:27:14,341 - 127.0.0.1:62951 - "[1mGET /posts/33/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:35,286 - 127.0.0.1:51803 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:48:35,333 - 127.0.0.1:51803 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:48:35,347 - 127.0.0.1:51809 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:35,347 - 127.0.0.1:51811 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:35,347 - 127.0.0.1:51812 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:35,348 - 127.0.0.1:51814 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:35,348 - 127.0.0.1:51816 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:35,348 - 127.0.0.1:51817 - "[1mGET /posts/33/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:48,377 - 127.0.0.1:51805 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:48:48,421 - 127.0.0.1:51805 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:48:48,454 - 127.0.0.1:51805 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 11:48:48,472 - 127.0.0.1:51870 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:48,473 - 127.0.0.1:51872 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:48,473 - 127.0.0.1:51873 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:48,473 - 127.0.0.1:51876 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:48,474 - 127.0.0.1:51877 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:48:48,474 - 127.0.0.1:51878 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:52:50,754 - 127.0.0.1:52858 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:52:50,781 - 127.0.0.1:52858 - "[1mGET /favicon.ico HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:56:40,946 - 127.0.0.1:53826 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:56:49,909 - 127.0.0.1:53866 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 11:58:08,128 - 127.0.0.1:54191 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:51:41,768 - 127.0.0.1:57452 - "[1mOPTIONS /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 14:51:42,062 - 127.0.0.1:57452 - "[1mPOST /api/auth/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 14:51:42,115 - 127.0.0.1:57452 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 14:51:42,143 - 127.0.0.1:57454 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 14:51:42,172 - 127.0.0.1:57458 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:51:42,172 - 127.0.0.1:57460 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:51:42,172 - 127.0.0.1:57461 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:51:42,173 - 127.0.0.1:57463 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:51:42,173 - 127.0.0.1:57465 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:51:42,173 - 127.0.0.1:57466 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:11,407 - 127.0.0.1:58862 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 14:57:11,429 - 127.0.0.1:58870 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:11,429 - 127.0.0.1:58872 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:11,429 - 127.0.0.1:58873 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:11,429 - 127.0.0.1:58875 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:11,429 - 127.0.0.1:58877 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:11,430 - 127.0.0.1:58878 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:15,782 - 127.0.0.1:58862 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 14:57:15,793 - 127.0.0.1:58901 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:15,793 - 127.0.0.1:58903 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:15,793 - 127.0.0.1:58904 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:15,794 - 127.0.0.1:58906 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:15,794 - 127.0.0.1:58908 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:15,794 - 127.0.0.1:58909 - "[1mGET /posts/34/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:31,151 - 127.0.0.1:58972 - "[1mGET /posts/33/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:33,710 - 127.0.0.1:58983 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 14:57:33,760 - 127.0.0.1:58983 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 14:57:33,797 - 127.0.0.1:58983 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 14:57:33,813 - 127.0.0.1:58987 - "[1mGET /posts/40/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:33,813 - 127.0.0.1:58989 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:33,814 - 127.0.0.1:58990 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:33,814 - 127.0.0.1:58992 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:33,814 - 127.0.0.1:58994 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 14:57:33,815 - 127.0.0.1:58995 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:06:37,322 - 127.0.0.1:61211 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:06:37,357 - 127.0.0.1:61211 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:06:37,367 - 127.0.0.1:61221 - "[1mGET /posts/40/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:06:37,367 - 127.0.0.1:61222 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:06:37,368 - 127.0.0.1:61224 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:06:37,368 - 127.0.0.1:61226 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:06:37,368 - 127.0.0.1:61228 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:06:37,369 - 127.0.0.1:61229 - "[1mGET /posts/35/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:15:20,131 - 127.0.0.1:63367 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:15:20,183 - 127.0.0.1:63367 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:15:20,229 - 127.0.0.1:63367 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:15:20,251 - 127.0.0.1:63371 - "[1mGET /posts/41/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:15:20,252 - 127.0.0.1:63372 - "[1mGET /posts/40/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:15:20,252 - 127.0.0.1:63374 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:15:20,253 - 127.0.0.1:63376 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:15:20,253 - 127.0.0.1:63378 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:15:20,253 - 127.0.0.1:63379 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:18:23,635 - 127.0.0.1:64140 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:18:23,690 - 127.0.0.1:64140 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:18:23,702 - 127.0.0.1:64146 - "[1mGET /posts/41/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:18:23,703 - 127.0.0.1:64148 - "[1mGET /posts/40/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:18:23,703 - 127.0.0.1:64149 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:18:23,703 - 127.0.0.1:64151 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:18:23,703 - 127.0.0.1:64153 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:18:23,704 - 127.0.0.1:64154 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:19:23,148 - 127.0.0.1:64402 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:19:23,158 - 127.0.0.1:64406 - "[1mGET /posts/41/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:19:23,159 - 127.0.0.1:64408 - "[1mGET /posts/40/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:19:23,159 - 127.0.0.1:64409 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:19:23,159 - 127.0.0.1:64411 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:19:23,159 - 127.0.0.1:64413 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:19:23,160 - 127.0.0.1:64414 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:20:36,121 - 127.0.0.1:64722 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:20:36,133 - 127.0.0.1:64730 - "[1mGET /posts/41/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:20:36,133 - 127.0.0.1:64732 - "[1mGET /posts/40/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:20:36,134 - 127.0.0.1:64733 - "[1mGET /posts/39/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:20:36,134 - 127.0.0.1:64735 - "[1mGET /posts/38/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:20:36,134 - 127.0.0.1:64737 - "[1mGET /posts/37/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:20:36,134 - 127.0.0.1:64738 - "[1mGET /posts/36/image HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-12-12 15:22:16,401 - 127.0.0.1:65155 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:22:16,413 - 127.0.0.1:65159 - "[1mGET /api/posts/41/image HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 15:22:16,418 - 127.0.0.1:65161 - "[1mGET /api/posts/40/image HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 15:22:16,419 - 127.0.0.1:65162 - "[1mGET /api/posts/39/image HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 15:22:16,420 - 127.0.0.1:65164 - "[1mGET /api/posts/38/image HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 15:22:16,420 - 127.0.0.1:65166 - "[1mGET /api/posts/37/image HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 15:22:16,421 - 127.0.0.1:65167 - "[1mGET /api/posts/36/image HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 15:23:18,051 - 127.0.0.1:65421 - "[1mGET /api/posts/38/image HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-12-12 15:25:01,823 - 127.0.0.1:49466 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:25:01,846 - 127.0.0.1:49470 - "[1mGET /api/posts/41/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:25:01,867 - 127.0.0.1:49477 - "[1mGET /api/posts/37/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:25:01,867 - 127.0.0.1:49478 - "[1mGET /api/posts/36/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:25:01,867 - 127.0.0.1:49476 - "[1mGET /api/posts/38/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:25:01,868 - 127.0.0.1:49475 - "[1mGET /api/posts/39/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:25:01,872 - 127.0.0.1:49472 - "[1mGET /api/posts/40/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:23,496 - 127.0.0.1:50326 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:23,517 - 127.0.0.1:50331 - "[1mGET /api/posts/41/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:23,528 - 127.0.0.1:50337 - "[1mGET /api/posts/37/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:23,528 - 127.0.0.1:50335 - "[1mGET /api/posts/38/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:23,529 - 127.0.0.1:50332 - "[1mGET /api/posts/40/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:23,529 - 127.0.0.1:50338 - "[1mGET /api/posts/36/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:23,532 - 127.0.0.1:50334 - "[1mGET /api/posts/39/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:40,358 - 127.0.0.1:50414 - "[1mGET /api/posts/35/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:40,393 - 127.0.0.1:50414 - "[1mGET /api/posts/34/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:40,448 - 127.0.0.1:50414 - "[1mGET /api/posts/33/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:40,546 - 127.0.0.1:50414 - "[1mGET /api/posts/32/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:40,733 - 127.0.0.1:50414 - "[1mGET /api/posts/31/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:40,777 - 127.0.0.1:50414 - "[1mGET /api/posts/30/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:40,823 - 127.0.0.1:50414 - "[1mGET /api/posts/29/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:40,847 - 127.0.0.1:50414 - "[1mGET /api/posts/28/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:28:40,883 - 127.0.0.1:50414 - "[1mGET /api/posts/27/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:33:05,367 - 127.0.0.1:50641 - "[1mOPTIONS /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:33:05,421 - 127.0.0.1:50641 - "[1mPOST /api/posts HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:33:05,428 - 127.0.0.1:50641 - "[1mOPTIONS /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:33:05,450 - 127.0.0.1:50641 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:33:05,464 - 127.0.0.1:50645 - "[1mGET /api/posts/42/image HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:33:26,910 - 127.0.0.1:50643 - "[1mOPTIONS /api/posts/42/like HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:33:26,943 - 127.0.0.1:50643 - "[1mPOST /api/posts/42/like HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-12-12 15:33:26,982 - 127.0.0.1:50643 - "[1mGET /api/posts/feed HTTP/1.1[0m" [32m200 OK[0m
